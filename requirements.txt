@@ -20,12 +20,12 @@ packaging==24.2
 pandas==2.2.2
 pydantic==2.11.5
 pydantic_core==2.33.2
-pypiwin32==223
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pyttsx3==2.98
 pytz==2024.1
-pywin32==310
+pypiwin32==223 ; sys_platform == "win32"
+pywin32==310 ; sys_platform == "win32"
 PyYAML==6.0.2
 requests==2.32.3
 requests-toolbelt==1.0.0
